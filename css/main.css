@@ -8,22 +8,22 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #1e6df4;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #ff9100;
+  background-color: #ff8800;
   color: rgb(0, 0, 0);
 }
 
@@ -78,10 +78,10 @@
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #040aaa;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
+  background-color: #16c177;
+  color: rgb(255, 255, 255);
+  padding: 18px;
+  font-size: 18px;
   border: none;
 }
 
@@ -95,7 +95,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #7428c0;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -116,4 +116,4 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #2170a4;}
