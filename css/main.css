@@ -212,3 +212,22 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: -50px;
+  right: -5px;
+  background-color: rgb(166, 161, 161);
+  color: white;
+  padding-left: 20x;
+  padding-right: 20px;
+}
